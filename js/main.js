@@ -63,8 +63,10 @@
 			items:1,
 			margin: 30,
 			stagePadding: 0,
-			nav: false,
+			nav: true,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+			// dotsClass: 'owl-pagination',
+    		// dotClass: 'owl-page',
 			responsive:{
 				0:{
 					items: 1
@@ -75,7 +77,8 @@
 				1000:{
 					items: 3
 				}
-			}
+			},
+			// dots: true
 		});
 
 	};
