@@ -8751,17 +8751,17 @@ h1, h2, h3, h4, h5,
     width: 100%;
     height: 250px;
     position: relative; }
-    .property-wrap .img .rent-sale {
+    .property-wrap .img .events {
       position: absolute;
       top: 10px;
       left: 25px; }
-      .property-wrap .img .rent-sale .sale {
+      .property-wrap .img .events .inactive {
         background: #e16262;
         color: #fff;
         border-radius: 4px;
         font-size: 14px;
         padding: 4px 10px; }
-      .property-wrap .img .rent-sale .rent {
+      .property-wrap .img .events .active {
         background: #24A148;
         color: #fff;
         border-radius: 4px;
